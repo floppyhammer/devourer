@@ -495,7 +495,7 @@ void EepromManager::Hal_EfuseReadEFuse8812A(uint16_t _offset,
                 eFuse_Addr);
 }
 
-#define EEPROM_TX_PWR_INX_8812 0x20
+#define EEPROM_TX_PWR_INX_8812 0x22
 
 bool EepromManager::IsEfuseTxPowerInfoValid(uint8_t *efuseEepromData) {
   uint16_t tx_index_offset = EEPROM_TX_PWR_INX_8812;
