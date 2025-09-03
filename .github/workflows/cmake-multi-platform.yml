@@ -79,7 +79,6 @@ jobs:
     - name: Install dependency libraries (macOS)
       if: runner.os == 'macOS'
       run:
-        brew update
         brew install libusb
 
     - name: Configure CMake
