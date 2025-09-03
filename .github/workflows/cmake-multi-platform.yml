@@ -74,7 +74,7 @@ jobs:
     - name: Install dependency libraries (Linux)
       if: runner.os == 'Linux'
       run:
-        sudo apt-get install libusb-1.0-0-dev
+        sudo apt install libusb-1.0-0-dev
 
     - name: Install dependency libraries (macOS)
       if: runner.os == 'macOS'
